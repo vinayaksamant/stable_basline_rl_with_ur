@@ -1,0 +1,63 @@
+[0.010s] Invoking command in '/home/vinayak/ws_moveit2/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vinayak/ws_moveit2/build/srdfdom
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target srdfdom[0m
+[0.072s] [ 18%] Built target gtest_main
+[0.075s] [ 45%] Built target srdfdom
+[0.078s] [ 45%] Built target ament_cmake_python_copy_srdfdom
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.102s] [ 63%] Built target gtest
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target test_cpp_C[0m
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target test_cpp_nl_NL.UTF-8[0m
+[0.131s] [100%] Built target test_cpp_C
+[0.132s] [100%] Built target test_cpp_nl_NL.UTF-8
+[0.355s] running egg_info
+[0.356s] writing srdfdom.egg-info/PKG-INFO
+[0.356s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[0.356s] writing top-level names to srdfdom.egg-info/top_level.txt
+[0.358s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.359s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.384s] [100%] Built target ament_cmake_python_build_srdfdom_egg
+[0.396s] Invoked command in '/home/vinayak/ws_moveit2/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vinayak/ws_moveit2/build/srdfdom
+[0.397s] Invoking command in '/home/vinayak/ws_moveit2/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vinayak/ws_moveit2/build/srdfdom
+[0.405s] -- Install configuration: ""
+[0.405s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/lib/libsrdfdom.so.2.0.7
+[0.406s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/lib/libsrdfdom.so
+[0.406s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/include/srdfdom
+[0.406s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/include/srdfdom/srdfdom
+[0.406s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/include/srdfdom/srdfdom/visibility_control.h
+[0.406s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/include/srdfdom/srdfdom/model.h
+[0.406s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/include/srdfdom/srdfdom/srdf_writer.h
+[0.407s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/lib/srdfdom/display_srdf
+[0.407s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[0.407s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[0.407s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info
+[0.407s] -- Installing: /home/vinayak/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/dependency_links.txt
+[0.407s] -- Installing: /home/vinayak/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/top_level.txt
+[0.407s] -- Installing: /home/vinayak/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/SOURCES.txt
+[0.407s] -- Installing: /home/vinayak/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/PKG-INFO
+[0.407s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[0.407s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[0.407s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[0.439s] Listing '/home/vinayak/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[0.442s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/environment/library_path.sh
+[0.442s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[0.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[0.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[0.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[0.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[0.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/environment/path.sh
+[0.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/environment/path.dsv
+[0.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.bash
+[0.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.sh
+[0.444s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.zsh
+[0.444s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.dsv
+[0.444s] -- Installing: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/package.dsv
+[0.444s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[0.444s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[0.444s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[0.444s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[0.444s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.444s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[0.445s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[0.445s] -- Up-to-date: /home/vinayak/ws_moveit2/install/srdfdom/share/srdfdom/package.xml
+[0.446s] Invoked command in '/home/vinayak/ws_moveit2/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vinayak/ws_moveit2/build/srdfdom

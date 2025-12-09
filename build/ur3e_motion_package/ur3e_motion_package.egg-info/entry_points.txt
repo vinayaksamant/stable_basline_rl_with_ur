@@ -1,0 +1,3 @@
+[console_scripts]
+ur3e_motion = ur3e_motion_package.ur3e_motion:main
+

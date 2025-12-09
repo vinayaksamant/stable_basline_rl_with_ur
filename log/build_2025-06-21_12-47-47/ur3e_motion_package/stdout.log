@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/ur3e_motion_package/ur3e_motion_package.egg-info
+writing ../../build/ur3e_motion_package/ur3e_motion_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur3e_motion_package/ur3e_motion_package.egg-info/dependency_links.txt
+writing entry points to ../../build/ur3e_motion_package/ur3e_motion_package.egg-info/entry_points.txt
+writing requirements to ../../build/ur3e_motion_package/ur3e_motion_package.egg-info/requires.txt
+writing top-level names to ../../build/ur3e_motion_package/ur3e_motion_package.egg-info/top_level.txt
+writing manifest file '../../build/ur3e_motion_package/ur3e_motion_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/ur3e_motion_package/ur3e_motion_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/ur3e_motion_package/ur3e_motion_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vinayak/ws_moveit2/build/ur3e_motion_package/build
+creating /home/vinayak/ws_moveit2/build/ur3e_motion_package/build/lib
+creating /home/vinayak/ws_moveit2/build/ur3e_motion_package/build/lib/ur3e_motion_package
+copying ur3e_motion_package/ur3e_motion.py -> /home/vinayak/ws_moveit2/build/ur3e_motion_package/build/lib/ur3e_motion_package
+copying ur3e_motion_package/__init__.py -> /home/vinayak/ws_moveit2/build/ur3e_motion_package/build/lib/ur3e_motion_package
+running install
+running install_lib
+creating /home/vinayak/ws_moveit2/install/ur3e_motion_package/lib/python3.10/site-packages/ur3e_motion_package
+copying /home/vinayak/ws_moveit2/build/ur3e_motion_package/build/lib/ur3e_motion_package/ur3e_motion.py -> /home/vinayak/ws_moveit2/install/ur3e_motion_package/lib/python3.10/site-packages/ur3e_motion_package
+copying /home/vinayak/ws_moveit2/build/ur3e_motion_package/build/lib/ur3e_motion_package/__init__.py -> /home/vinayak/ws_moveit2/install/ur3e_motion_package/lib/python3.10/site-packages/ur3e_motion_package
+byte-compiling /home/vinayak/ws_moveit2/install/ur3e_motion_package/lib/python3.10/site-packages/ur3e_motion_package/ur3e_motion.py to ur3e_motion.cpython-310.pyc
+byte-compiling /home/vinayak/ws_moveit2/install/ur3e_motion_package/lib/python3.10/site-packages/ur3e_motion_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/vinayak/ws_moveit2/install/ur3e_motion_package/share/ament_index
+creating /home/vinayak/ws_moveit2/install/ur3e_motion_package/share/ament_index/resource_index
+creating /home/vinayak/ws_moveit2/install/ur3e_motion_package/share/ament_index/resource_index/packages
+copying resource/ur3e_motion_package -> /home/vinayak/ws_moveit2/install/ur3e_motion_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/vinayak/ws_moveit2/install/ur3e_motion_package/share/ur3e_motion_package
+running install_egg_info
+Copying ../../build/ur3e_motion_package/ur3e_motion_package.egg-info to /home/vinayak/ws_moveit2/install/ur3e_motion_package/lib/python3.10/site-packages/ur3e_motion_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ur3e_motion script to /home/vinayak/ws_moveit2/install/ur3e_motion_package/lib/ur3e_motion_package
+writing list of installed files to '/home/vinayak/ws_moveit2/build/ur3e_motion_package/install.log'

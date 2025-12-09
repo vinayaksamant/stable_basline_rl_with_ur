@@ -1,0 +1,26 @@
+[0.718s] Invoking command in '/home/vinayak/ws_moveit2/src/ur3e_rl': PYTHONPATH=/home/vinayak/ws_moveit2/build/ur3e_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinayak/ws_moveit2/install/ur3e_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur3e_rl build --build-base /home/vinayak/ws_moveit2/build/ur3e_rl/build install --record /home/vinayak/ws_moveit2/build/ur3e_rl/install.log --single-version-externally-managed install_data
+[0.988s] running egg_info
+[0.989s] writing ../../build/ur3e_rl/ur3e_rl.egg-info/PKG-INFO
+[0.989s] writing dependency_links to ../../build/ur3e_rl/ur3e_rl.egg-info/dependency_links.txt
+[0.989s] writing entry points to ../../build/ur3e_rl/ur3e_rl.egg-info/entry_points.txt
+[0.989s] writing requirements to ../../build/ur3e_rl/ur3e_rl.egg-info/requires.txt
+[0.989s] writing top-level names to ../../build/ur3e_rl/ur3e_rl.egg-info/top_level.txt
+[0.991s] reading manifest file '../../build/ur3e_rl/ur3e_rl.egg-info/SOURCES.txt'
+[0.992s] writing manifest file '../../build/ur3e_rl/ur3e_rl.egg-info/SOURCES.txt'
+[0.992s] running build
+[0.992s] running build_py
+[0.992s] copying ur3e_rl/train.py -> /home/vinayak/ws_moveit2/build/ur3e_rl/build/lib/ur3e_rl
+[0.992s] running install
+[0.992s] running install_lib
+[0.993s] copying /home/vinayak/ws_moveit2/build/ur3e_rl/build/lib/ur3e_rl/train.py -> /home/vinayak/ws_moveit2/install/ur3e_rl/lib/python3.10/site-packages/ur3e_rl
+[0.994s] byte-compiling /home/vinayak/ws_moveit2/install/ur3e_rl/lib/python3.10/site-packages/ur3e_rl/train.py to train.cpython-310.pyc
+[0.994s] running install_data
+[0.994s] running install_egg_info
+[0.996s] removing '/home/vinayak/ws_moveit2/install/ur3e_rl/lib/python3.10/site-packages/ur3e_rl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.996s] Copying ../../build/ur3e_rl/ur3e_rl.egg-info to /home/vinayak/ws_moveit2/install/ur3e_rl/lib/python3.10/site-packages/ur3e_rl-0.0.0-py3.10.egg-info
+[0.997s] running install_scripts
+[1.016s] Installing test_rl script to /home/vinayak/ws_moveit2/install/ur3e_rl/lib/ur3e_rl
+[1.016s] Installing train_rl script to /home/vinayak/ws_moveit2/install/ur3e_rl/lib/ur3e_rl
+[1.016s] Installing ur3e_motion script to /home/vinayak/ws_moveit2/install/ur3e_rl/lib/ur3e_rl
+[1.017s] writing list of installed files to '/home/vinayak/ws_moveit2/build/ur3e_rl/install.log'
+[1.037s] Invoked command in '/home/vinayak/ws_moveit2/src/ur3e_rl' returned '0': PYTHONPATH=/home/vinayak/ws_moveit2/build/ur3e_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinayak/ws_moveit2/install/ur3e_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur3e_rl build --build-base /home/vinayak/ws_moveit2/build/ur3e_rl/build install --record /home/vinayak/ws_moveit2/build/ur3e_rl/install.log --single-version-externally-managed install_data

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-a3e5d78bcf50c9065def.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_visual_tools",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_visual_tools::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_visual_tools-Release-b53c76209ce1a09ac26b.json",
+					"name" : "moveit_visual_tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_visual_tools_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_visual_tools_demo-Release-f509553be84aec1f0e52.json",
+					"name" : "moveit_visual_tools_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_visual_tools_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_visual_tools_uninstall-Release-2dce2c50dc937b61aeb6.json",
+					"name" : "moveit_visual_tools_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-a37f4cca4f516bdbf851.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vinayak/ws_moveit2/build/moveit_visual_tools",
+		"source" : "/home/vinayak/ws_moveit2/src/moveit_visual_tools"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

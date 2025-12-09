@@ -1,0 +1,15 @@
+/home/vinayak/ws_moveit2/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+/home/vinayak/ws_moveit2/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/environment/ament_prefix_path.sh
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/environment/path.sh
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/environment/path.dsv
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/local_setup.bash
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/local_setup.sh
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/local_setup.zsh
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/local_setup.dsv
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/package.dsv
+/home/vinayak/ws_moveit2/install/moveit/share/ament_index/resource_index/packages/moveit
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/cmake/moveitConfig.cmake
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+/home/vinayak/ws_moveit2/install/moveit/share/moveit/package.xml

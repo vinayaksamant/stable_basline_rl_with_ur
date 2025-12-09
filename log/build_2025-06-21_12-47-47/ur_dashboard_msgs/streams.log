@@ -1,0 +1,656 @@
+[0.009s] Invoking command in '/home/vinayak/ws_moveit2/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.206s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.213s] -- Detecting C compile features
+[0.214s] -- Detecting C compile features - done
+[0.216s] -- Detecting CXX compiler ABI info
+[0.300s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.308s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.466s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.570s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.583s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.594s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.695s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.103s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.567s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.570s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.599s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.599s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.599s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.599s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.621s] -- Found PythonExtra: .so  
+[1.715s] -- Configuring done
+[1.770s] -- Generating done
+[1.783s] -- Build files have been written to: /home/vinayak/ws_moveit2/build/ur_dashboard_msgs
+[1.790s] Invoked command in '/home/vinayak/ws_moveit2/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs
+[1.791s] Invoking command in '/home/vinayak/ws_moveit2/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vinayak/ws_moveit2/build/ur_dashboard_msgs
+[1.852s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.765s] [  0%] Built target ur_dashboard_msgs__cpp
+[3.798s] [  0%] Built target ament_cmake_python_copy_ur_dashboard_msgs
+[3.810s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.374s] [  2%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[5.712s] [  3%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[6.048s] [  3%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[6.379s] [  4%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[6.725s] [  5%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[7.084s] [  6%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[7.434s] [  6%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[7.803s] [  7%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[8.178s] [  8%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[8.556s] [  9%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[8.943s] [  9%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[9.313s] [ 10%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[9.662s] [ 11%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[10.025s] [ 12%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[10.506s] [ 12%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.585s] [ 12%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[10.598s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.927s] [ 13%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[12.248s] [ 14%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[12.568s] [ 15%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[12.889s] [ 15%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[13.214s] [ 16%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[13.564s] [ 17%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[13.890s] [ 18%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[14.212s] [ 18%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[14.536s] [ 19%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[14.861s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[15.201s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[15.545s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[15.897s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[16.217s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[16.711s] [ 24%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[16.788s] [ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[17.055s] running egg_info
+[17.055s] creating ur_dashboard_msgs.egg-info
+[17.056s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[17.056s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[17.056s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[17.056s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[17.058s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[17.058s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[17.083s] [ 24%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[17.096s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.997s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[18.238s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[18.502s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[18.743s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[19.004s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[19.257s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[19.516s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[19.771s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[20.025s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[20.280s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[20.536s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[20.791s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[21.046s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[21.445s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[21.688s] [ 36%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[21.735s] [ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[21.748s] [ 37%] [34m[1mGenerating C code for ROS interfaces[0m
+[23.759s] [ 37%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o[0m
+[23.811s] [ 38%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o[0m
+[23.871s] [ 38%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o[0m
+[23.933s] [ 39%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o[0m
+[23.993s] [ 40%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o[0m
+[24.057s] [ 41%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o[0m
+[24.119s] [ 41%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o[0m
+[24.179s] [ 42%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o[0m
+[24.242s] [ 43%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o[0m
+[24.304s] [ 44%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o[0m
+[24.364s] [ 44%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o[0m
+[24.426s] [ 45%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o[0m
+[24.556s] [ 46%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o[0m
+[24.604s] [ 47%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o[0m
+[24.653s] [ 48%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so[0m
+[24.695s] [ 48%] Built target ur_dashboard_msgs__rosidl_generator_c
+[24.708s] [ 49%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[26.090s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[26.407s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[26.694s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[26.976s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[27.279s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[27.586s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[27.922s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[28.225s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[28.558s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[28.864s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[29.168s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[29.471s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[29.775s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[30.078s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[30.449s] [ 60%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[30.528s] [ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[30.541s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[31.484s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[31.518s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[31.551s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[31.585s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[31.621s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[31.656s] [ 65%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[31.691s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[31.726s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[31.761s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[31.796s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[31.832s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[31.867s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[31.901s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[31.952s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[31.985s] [ 72%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so[0m
+[32.031s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[32.044s] [ 73%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[33.312s] [ 74%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[33.349s] [ 75%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[33.387s] [ 76%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[33.428s] [ 77%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[33.468s] [ 77%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[33.507s] [ 78%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[33.548s] [ 79%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[33.587s] [ 79%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[33.627s] [ 80%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[33.667s] [ 81%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[33.706s] [ 82%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[33.746s] [ 82%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[33.795s] [ 82%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[33.831s] [ 83%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[33.867s] [ 84%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[33.905s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[33.929s] [ 84%] Built target ur_dashboard_msgs
+[33.954s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[37.143s] [ 85%] Built target ur_dashboard_msgs__py
+[37.168s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[37.262s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[37.363s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[37.463s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[37.564s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[37.664s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[37.764s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[37.863s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[37.964s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[38.064s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[38.165s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[38.265s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[38.396s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[38.490s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[38.584s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so[0m
+[38.631s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[38.656s] [ 97%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.836s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.880s] [ 97%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[38.905s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.099s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.144s] [ 98%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[39.170s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[39.350s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.395s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[39.408s] Invoked command in '/home/vinayak/ws_moveit2/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vinayak/ws_moveit2/build/ur_dashboard_msgs
+[39.409s] Invoking command in '/home/vinayak/ws_moveit2/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vinayak/ws_moveit2/build/ur_dashboard_msgs
+[39.417s] -- Install configuration: ""
+[39.417s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[39.418s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[39.418s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[39.418s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[39.418s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[39.418s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[39.418s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.c
+[39.418s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[39.418s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[39.418s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[39.419s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[39.419s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[39.419s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[39.419s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[39.419s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[39.419s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[39.419s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.c
+[39.419s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[39.419s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.c
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.c
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[39.420s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[39.421s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[39.421s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[39.421s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[39.421s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[39.421s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[39.421s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[39.421s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c
+[39.421s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[39.421s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[39.422s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[39.422s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[39.422s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[39.422s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[39.422s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[39.422s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[39.422s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[39.422s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c
+[39.422s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.c
+[39.422s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.c
+[39.423s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[39.423s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[39.423s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[39.423s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[39.423s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[39.423s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[39.423s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[39.423s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[39.423s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[39.424s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[39.424s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.c
+[39.424s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[39.424s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[39.424s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[39.424s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.c
+[39.424s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c
+[39.424s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[39.424s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[39.425s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[39.425s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[39.425s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.c
+[39.425s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[39.425s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[39.425s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[39.425s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.c
+[39.425s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c
+[39.425s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[39.426s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[39.426s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[39.426s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[39.426s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[39.426s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[39.426s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[39.427s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[39.427s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[39.427s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[39.427s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[39.427s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[39.427s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[39.427s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[39.428s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[39.428s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[39.428s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[39.428s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[39.428s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[39.428s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[39.428s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[39.428s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[39.428s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[39.429s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[39.429s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[39.429s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[39.429s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[39.429s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[39.429s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[39.429s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[39.429s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[39.429s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[39.429s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[39.429s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[39.430s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[39.430s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c
+[39.430s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[39.430s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[39.430s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[39.430s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c
+[39.430s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[39.430s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[39.430s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c
+[39.430s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[39.430s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c
+[39.430s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[39.431s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[39.431s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[39.431s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c
+[39.431s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c
+[39.431s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[39.431s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[39.431s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[39.431s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[39.431s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c
+[39.431s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[39.432s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c
+[39.432s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c
+[39.432s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c
+[39.432s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c
+[39.432s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[39.432s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[39.432s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c
+[39.432s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[39.432s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[39.433s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[39.433s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c
+[39.433s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c
+[39.433s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[39.433s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[39.434s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[39.434s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[39.434s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[39.434s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[39.434s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[39.434s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[39.434s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[39.434s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[39.434s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.hpp
+[39.435s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[39.435s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[39.435s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[39.435s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[39.435s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[39.435s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[39.435s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.hpp
+[39.435s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[39.435s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.hpp
+[39.435s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[39.435s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.hpp
+[39.436s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[39.436s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[39.436s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[39.436s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[39.436s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[39.436s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[39.436s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[39.436s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[39.436s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[39.436s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[39.437s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[39.437s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[39.437s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[39.437s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[39.437s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[39.437s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[39.437s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[39.437s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[39.437s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[39.437s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[39.438s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[39.438s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[39.438s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[39.438s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[39.438s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.hpp
+[39.438s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[39.438s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[39.438s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[39.438s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[39.439s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[39.439s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.hpp
+[39.439s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[39.439s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[39.439s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.hpp
+[39.439s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.hpp
+[39.439s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.hpp
+[39.439s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[39.439s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.hpp
+[39.440s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[39.440s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.hpp
+[39.440s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[39.440s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[39.440s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.hpp
+[39.440s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[39.440s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.hpp
+[39.440s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[39.440s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.hpp
+[39.441s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[39.441s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[39.441s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[39.441s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[39.441s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[39.441s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[39.441s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[39.441s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[39.442s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[39.442s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[39.442s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[39.442s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[39.442s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[39.442s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[39.442s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[39.442s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[39.442s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[39.443s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/dds_fastrtps
+[39.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[39.443s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[39.443s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[39.443s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[39.443s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[39.443s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/dds_fastrtps
+[39.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[39.443s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[39.443s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[39.443s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[39.443s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[39.444s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[39.444s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[39.444s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[39.444s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[39.444s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[39.444s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[39.444s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[39.444s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/dds_fastrtps
+[39.444s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[39.445s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[39.445s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[39.445s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[39.445s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[39.445s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[39.445s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp
+[39.445s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[39.446s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[39.446s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp
+[39.446s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp
+[39.446s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp
+[39.446s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[39.446s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[39.446s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[39.446s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[39.446s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[39.446s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[39.446s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.cpp
+[39.446s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[39.447s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp
+[39.447s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.cpp
+[39.447s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[39.447s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp
+[39.447s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp
+[39.447s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[39.447s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp
+[39.447s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp
+[39.447s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[39.448s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[39.448s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp
+[39.448s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp
+[39.448s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[39.448s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[39.448s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp
+[39.448s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[39.448s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[39.449s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[39.449s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[39.449s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[39.450s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[39.450s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[39.450s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[39.450s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.16-py3.10.egg-info
+[39.450s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.16-py3.10.egg-info/dependency_links.txt
+[39.450s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.16-py3.10.egg-info/top_level.txt
+[39.450s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.16-py3.10.egg-info/SOURCES.txt
+[39.450s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.16-py3.10.egg-info/PKG-INFO
+[39.450s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs
+[39.451s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[39.451s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[39.451s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action
+[39.451s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py
+[39.451s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[39.451s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py
+[39.451s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[39.452s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[39.452s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[39.452s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py
+[39.452s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg
+[39.452s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[39.452s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py
+[39.452s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[39.452s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[39.453s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[39.453s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[39.453s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py
+[39.453s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so
+[39.453s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv
+[39.453s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup_s.c
+[39.453s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py
+[39.453s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load_s.c
+[39.453s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py
+[39.454s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[39.454s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[39.454s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[39.454s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[39.454s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[39.454s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[39.454s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py
+[39.454s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[39.455s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[39.455s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[39.455s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py
+[39.455s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[39.455s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[39.455s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[39.455s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[39.455s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[39.455s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[39.455s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[39.509s] Listing '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs'...
+[39.509s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py'...
+[39.509s] Listing '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action'...
+[39.509s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py'...
+[39.509s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py'...
+[39.509s] Listing '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg'...
+[39.509s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py'...
+[39.509s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py'...
+[39.509s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py'...
+[39.509s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py'...
+[39.509s] Listing '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv'...
+[39.509s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py'...
+[39.509s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py'...
+[39.510s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...
+[39.510s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py'...
+[39.510s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...
+[39.510s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...
+[39.510s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py'...
+[39.510s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...
+[39.510s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py'...
+[39.510s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py'...
+[39.510s] Compiling '/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py'...
+[39.513s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[39.514s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[39.514s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[39.514s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[39.514s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[39.515s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[39.515s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[39.515s] -- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[39.516s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[39.516s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[39.516s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[39.516s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[39.516s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[39.516s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[39.516s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[39.516s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[39.517s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[39.517s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[39.517s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[39.517s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[39.517s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[39.517s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[39.517s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[39.518s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[39.518s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[39.518s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[39.518s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[39.518s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[39.518s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[39.518s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[39.518s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[39.519s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[39.519s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[39.519s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[39.519s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[39.519s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[39.519s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[39.519s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[39.520s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[39.520s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[39.520s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[39.520s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[39.520s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[39.520s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[39.520s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[39.520s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[39.521s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[39.521s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[39.521s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[39.521s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[39.521s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[39.521s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[39.521s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[39.521s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[39.522s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[39.522s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[39.522s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[39.522s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[39.522s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[39.522s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[39.522s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[39.523s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[39.523s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[39.523s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[39.523s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[39.523s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[39.523s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[39.523s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[39.524s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[39.524s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[39.524s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[39.524s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[39.524s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[39.524s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[39.524s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[39.525s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[39.525s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[39.525s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[39.525s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[39.525s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[39.525s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[39.526s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[39.526s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[39.526s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[39.526s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[39.526s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[39.526s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.526s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.527s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[39.527s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[39.527s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.527s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.527s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[39.527s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[39.527s] -- Installing: /home/vinayak/ws_moveit2/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[39.530s] Invoked command in '/home/vinayak/ws_moveit2/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vinayak/ws_moveit2/build/ur_dashboard_msgs

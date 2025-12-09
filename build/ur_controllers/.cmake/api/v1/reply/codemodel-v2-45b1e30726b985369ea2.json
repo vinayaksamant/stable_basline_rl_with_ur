@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-82d17abad8c31b65088e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur_controllers",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gpio_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpio_controller_parameters-da98309b095f6e8e8329.json",
+					"name" : "gpio_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "passthrough_trajectory_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-passthrough_trajectory_controller_parameters-b89a622eab014c6e58e4.json",
+					"name" : "passthrough_trajectory_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scaled_joint_trajectory_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scaled_joint_trajectory_controller_parameters-41ea0b474fe31ff45511.json",
+					"name" : "scaled_joint_trajectory_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "speed_scaling_state_broadcaster_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-speed_scaling_state_broadcaster_parameters-5cf9ae62e97056eb537e.json",
+					"name" : "speed_scaling_state_broadcaster_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4a743ba3e3b481028013.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_configuration_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_configuration_controller_parameters-80c3e22c8ed1ce6ecf48.json",
+					"name" : "ur_configuration_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_controllers-4f886cf361d00d3ac77b.json",
+					"name" : "ur_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_controllers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_controllers_uninstall-7ce6adaf140e2204eb5d.json",
+					"name" : "ur_controllers_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vinayak/ws_moveit2/build/ur_controllers",
+		"source" : "/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
