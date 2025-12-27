@@ -19,10 +19,10 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            'ur3e_motion = ur3e_rl.ur3e_motion:main',
-            'train_rl = ur3e_rl.train:main',
-            'test_rl = ur3e_rl.test:main',
-        ],
-    },
+    'console_scripts': [
+        'ur3e_motion = ur3e_rl.ur3e_motion:main',
+        'train_rl = ur3e_rl.train:main',
+        'test_rl = ur3e_rl.test:main',
+    ],
+},
 )

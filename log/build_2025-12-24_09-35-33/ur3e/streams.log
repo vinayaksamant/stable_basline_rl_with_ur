@@ -1,0 +1,41 @@
+[0.023s] Invoking command in '/home/vinayak/ws_moveit2/build/ur3e': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vinayak/ws_moveit2/build/ur3e
+[0.117s] Invoked command in '/home/vinayak/ws_moveit2/build/ur3e' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/vinayak/ws_moveit2/build/ur3e
+[0.118s] Invoking command in '/home/vinayak/ws_moveit2/build/ur3e': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vinayak/ws_moveit2/build/ur3e
+[0.133s] -- Install configuration: ""
+[0.136s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/urdf
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/urdf/ur3e.urdf
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/visual
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/visual/wrist2.dae
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/visual/wrist3.dae
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/visual/upperarm.dae
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/visual/shoulder.dae
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/visual/forearm.dae
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/visual/wrist1.dae
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/visual/base.dae
+[0.138s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/collision
+[0.140s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/collision/base.stl
+[0.140s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/collision/wrist2.stl
+[0.140s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/collision/wrist1.stl
+[0.140s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/collision/wrist3.stl
+[0.140s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/collision/upperarm.stl
+[0.140s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/collision/shoulder.stl
+[0.141s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/meshes/collision/forearm.stl
+[0.141s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/launch
+[0.141s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/launch/display.launch.py
+[0.141s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ament_index/resource_index/package_run_dependencies/ur3e
+[0.142s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ament_index/resource_index/parent_prefix_path/ur3e
+[0.142s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/environment/ament_prefix_path.sh
+[0.142s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/environment/ament_prefix_path.dsv
+[0.142s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/environment/path.sh
+[0.142s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/environment/path.dsv
+[0.142s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/local_setup.bash
+[0.142s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/local_setup.sh
+[0.143s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/local_setup.zsh
+[0.143s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/local_setup.dsv
+[0.143s] -- Installing: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/package.dsv
+[0.144s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ament_index/resource_index/packages/ur3e
+[0.144s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/cmake/ur3eConfig.cmake
+[0.144s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/cmake/ur3eConfig-version.cmake
+[0.145s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur3e/share/ur3e/package.xml
+[0.159s] Invoked command in '/home/vinayak/ws_moveit2/build/ur3e' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vinayak/ws_moveit2/install/ur3e_motion_package:/home/vinayak/ws_moveit2/install/moveit_configs_utils:/home/vinayak/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/vinayak/ws_moveit2/build/ur3e

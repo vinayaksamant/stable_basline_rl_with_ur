@@ -1,0 +1,75 @@
+[ 12%] Built target gpio_controller_parameters
+[ 25%] Built target passthrough_trajectory_controller_parameters
+[ 37%] Built target ur_configuration_controller_parameters
+[ 50%] Built target scaled_joint_trajectory_controller_parameters
+[ 62%] Built target speed_scaling_state_broadcaster_parameters
+[ 68%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[100%] Built target ur_controllers
+-- Install configuration: ""
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/lib/libur_controllers.so
+-- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_controllers/lib/libur_controllers.so" to ""
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/path.sh
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/path.dsv
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.bash
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.sh
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.zsh
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.dsv
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/package.dsv
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/package.xml

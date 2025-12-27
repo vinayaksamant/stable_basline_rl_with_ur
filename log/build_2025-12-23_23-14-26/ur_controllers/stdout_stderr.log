@@ -1,0 +1,132 @@
+[ 12%] Built target gpio_controller_parameters
+[ 25%] Built target passthrough_trajectory_controller_parameters
+[ 37%] Built target ur_configuration_controller_parameters
+[ 50%] Built target scaled_joint_trajectory_controller_parameters
+[ 62%] Built target speed_scaling_state_broadcaster_parameters
+[ 68%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+In file included from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:48[m[K,
+                 from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp:41[m[K:
+[01m[K/home/vinayak/ws_moveit2/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp:1:185:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "scaled_joint_trajectory_controller_parameters.hpp" is deprecated. Use #include <ur_controllers/scaled_joint_trajectory_controller_parameters.hpp> instead.[m[K’
+    1 | ntrollers/scaled_joint_trajectory_controller_parameters.hpp> instead."[01;36m[K)[m[K
+      |                                                                       [01;36m[K^[m[K
+
+[ 75%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+In file included from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp:46[m[K,
+                 from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller.cpp:50[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 | lease update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                             [01;36m[K^[m[K
+
+In file included from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp:47[m[K,
+                 from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller.cpp:50[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h:22:112:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header.[m[K’
+   22 |  your code to use 'realtime_server_goal_handle.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                             [01;36m[K^[m[K
+
+In file included from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp:68[m[K,
+                 from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller.cpp:50[m[K:
+[01m[K/home/vinayak/ws_moveit2/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp:1:183:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "passthrough_trajectory_controller_parameters.hpp" is deprecated. Use #include <ur_controllers/passthrough_trajectory_controller_parameters.hpp> instead.[m[K’
+    1 | ontrollers/passthrough_trajectory_controller_parameters.hpp> instead."[01;36m[K)[m[K
+      |                                                                       [01;36m[K^[m[K
+
+[ 81%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+In file included from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp:46[m[K,
+                 from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller.cpp:41[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_box_best_effort.h:38:109:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_box_best_effort.hpp' header.[m[K’
+   38 | ate your code to use 'realtime_box_best_effort.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                             [01;36m[K^[m[K
+
+In file included from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp:53[m[K,
+                 from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller.cpp:41[m[K:
+[01m[K/home/vinayak/ws_moveit2/build/ur_controllers/include/ur_configuration_controller_parameters.hpp:1:171:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "ur_configuration_controller_parameters.hpp" is deprecated. Use #include <ur_controllers/ur_configuration_controller_parameters.hpp> instead.[m[K’
+    1 |  <ur_controllers/ur_configuration_controller_parameters.hpp> instead."[01;36m[K)[m[K
+      |                                                                       [01;36m[K^[m[K
+
+In file included from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_box.h:22:97:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_box.hpp' header.[m[K’
+   22 | . Please update your code to use 'realtime_box.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                             [01;36m[K^[m[K
+
+[ 87%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+In file included from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:60[m[K,
+                 from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[01m[K/home/vinayak/ws_moveit2/build/ur_controllers/include/gpio_controller_parameters.hpp:1:147:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "gpio_controller_parameters.hpp" is deprecated. Use #include <ur_controllers/gpio_controller_parameters.hpp> instead.[m[K’
+    1 | Use #include <ur_controllers/gpio_controller_parameters.hpp> instead."[01;36m[K)[m[K
+      |                                                                       [01;36m[K^[m[K
+
+[01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setAnalogOutput(ur_msgs::srv::SetAnalogOutput_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetAnalogOutput_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:410:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  410 |   if ([01;35m[Kreq->data.pin < 0[m[K || req->data.pin > 1) {
+      |       [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[ 93%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+In file included from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp:51[m[K,
+                 from [01m[K/home/vinayak/ws_moveit2/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster.cpp:38[m[K:
+[01m[K/home/vinayak/ws_moveit2/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp:1:179:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "speed_scaling_state_broadcaster_parameters.hpp" is deprecated. Use #include <ur_controllers/speed_scaling_state_broadcaster_parameters.hpp> instead.[m[K’
+    1 | _controllers/speed_scaling_state_broadcaster_parameters.hpp> instead."[01;36m[K)[m[K
+      |                                                                       [01;36m[K^[m[K
+
+[100%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[100%] Built target ur_controllers
+-- Install configuration: ""
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/lib/libur_controllers.so
+-- Set runtime path of "/home/vinayak/ws_moveit2/install/ur_controllers/lib/libur_controllers.so" to ""
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+-- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/path.sh
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/path.dsv
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.bash
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.sh
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.zsh
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.dsv
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/package.dsv
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+-- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/package.xml

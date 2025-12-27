@@ -1,0 +1,72 @@
+[0.061s] Invoking command in '/home/vinayak/ws_moveit2/build/ur_controllers': AMENT_PREFIX_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vinayak/ws_moveit2/build/ur_controllers -- -j8 -l8
+[0.122s] [ 12%] Built target scaled_joint_trajectory_controller_parameters
+[0.122s] [ 37%] Built target gpio_controller_parameters
+[0.122s] [ 37%] Built target speed_scaling_state_broadcaster_parameters
+[0.122s] [ 50%] Built target passthrough_trajectory_controller_parameters
+[0.126s] [ 62%] Built target ur_configuration_controller_parameters
+[0.158s] [100%] Built target ur_controllers
+[0.440s] Invoked command in '/home/vinayak/ws_moveit2/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vinayak/ws_moveit2/build/ur_controllers -- -j8 -l8
+[0.443s] Invoking command in '/home/vinayak/ws_moveit2/build/ur_controllers': AMENT_PREFIX_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vinayak/ws_moveit2/build/ur_controllers
+[0.461s] -- Install configuration: ""
+[0.461s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+[0.461s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.461s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.461s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.461s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.461s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.463s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+[0.463s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.463s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.464s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.464s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.464s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.465s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+[0.465s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.465s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.465s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.465s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.465s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.466s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+[0.466s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.466s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.466s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.466s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.466s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.467s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+[0.467s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.467s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.467s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.467s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.467s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.467s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[0.467s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/lib/libur_controllers.so
+[0.467s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include
+[0.467s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers
+[0.468s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[0.468s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[0.468s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[0.468s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[0.468s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[0.470s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/path.sh
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.bash
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.sh
+[0.471s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[0.472s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[0.472s] -- Installing: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/package.dsv
+[0.472s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[0.472s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[0.472s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.472s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.472s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[0.472s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[0.472s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[0.472s] -- Up-to-date: /home/vinayak/ws_moveit2/install/ur_controllers/share/ur_controllers/package.xml
+[0.475s] Invoked command in '/home/vinayak/ws_moveit2/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vinayak/ws_moveit2/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vinayak/ws_moveit2/build/ur_controllers

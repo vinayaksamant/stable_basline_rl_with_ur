@@ -1,4 +1,0 @@
-[0mmoveit_core: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
-gmake[2]: *** [robot_state/CMakeFiles/moveit_robot_state.dir/build.make:118: robot_state/CMakeFiles/moveit_robot_state.dir/src/cartesian_interpolator.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:1653: robot_state/CMakeFiles/moveit_robot_state.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

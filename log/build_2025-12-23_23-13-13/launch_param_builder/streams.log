@@ -1,0 +1,50 @@
+[1.299s] Invoking command in '/home/vinayak/ws_moveit2/src/launch_param_builder': PYTHONPATH=/home/vinayak/ws_moveit2/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinayak/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/vinayak/ws_moveit2/build/launch_param_builder/build install --record /home/vinayak/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed install_data
+[1.830s] running egg_info
+[1.831s] creating ../../build/launch_param_builder/launch_param_builder.egg-info
+[1.831s] writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[1.832s] writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[1.832s] writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[1.832s] writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[1.833s] writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[1.833s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.836s] reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.837s] adding license file 'LICENSE'
+[1.838s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.838s] running build
+[1.838s] running build_py
+[1.838s] creating /home/vinayak/ws_moveit2/build/launch_param_builder/build
+[1.838s] creating /home/vinayak/ws_moveit2/build/launch_param_builder/build/lib
+[1.839s] creating /home/vinayak/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.839s] copying launch_param_builder/utils.py -> /home/vinayak/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.843s] copying launch_param_builder/launch_param_builder.py -> /home/vinayak/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.843s] copying launch_param_builder/__init__.py -> /home/vinayak/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.843s] running install
+[1.844s] running install_lib
+[1.844s] creating /home/vinayak/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.844s] copying /home/vinayak/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/utils.py -> /home/vinayak/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.844s] copying /home/vinayak/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/launch_param_builder.py -> /home/vinayak/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.844s] copying /home/vinayak/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/__init__.py -> /home/vinayak/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.844s] byte-compiling /home/vinayak/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/utils.py to utils.cpython-310.pyc
+[1.845s] byte-compiling /home/vinayak/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/launch_param_builder.py to launch_param_builder.cpython-310.pyc
+[1.845s] byte-compiling /home/vinayak/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/__init__.py to __init__.cpython-310.pyc
+[1.846s] running install_data
+[1.847s] creating /home/vinayak/ws_moveit2/install/launch_param_builder/share/ament_index
+[1.847s] creating /home/vinayak/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index
+[1.847s] creating /home/vinayak/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index/packages
+[1.847s] copying resource/launch_param_builder -> /home/vinayak/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index/packages
+[1.847s] creating /home/vinayak/ws_moveit2/install/launch_param_builder/share/launch_param_builder/launch
+[1.847s] copying example/launch_param_builder_example.launch.py -> /home/vinayak/ws_moveit2/install/launch_param_builder/share/launch_param_builder/launch
+[1.848s] creating /home/vinayak/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.848s] copying test/data/parameters_injection.yaml -> /home/vinayak/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.848s] copying test/data/parameter.xacro -> /home/vinayak/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.849s] copying test/data/param_file_to_inject.yaml -> /home/vinayak/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.850s] copying test/data/parameters.yaml -> /home/vinayak/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.850s] copying test/data/parameter_file -> /home/vinayak/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.850s] copying package.xml -> /home/vinayak/ws_moveit2/install/launch_param_builder/share/launch_param_builder
+[1.851s] creating /home/vinayak/ws_moveit2/install/launch_param_builder/lib/launch_param_builder
+[1.851s] copying example/example_node.py -> /home/vinayak/ws_moveit2/install/launch_param_builder/lib/launch_param_builder
+[1.851s] running install_egg_info
+[1.858s] Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/vinayak/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[1.859s] running install_scripts
+[1.892s] writing list of installed files to '/home/vinayak/ws_moveit2/build/launch_param_builder/install.log'
+[1.948s] Invoked command in '/home/vinayak/ws_moveit2/src/launch_param_builder' returned '0': PYTHONPATH=/home/vinayak/ws_moveit2/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinayak/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/vinayak/ws_moveit2/build/launch_param_builder/build install --record /home/vinayak/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed install_data

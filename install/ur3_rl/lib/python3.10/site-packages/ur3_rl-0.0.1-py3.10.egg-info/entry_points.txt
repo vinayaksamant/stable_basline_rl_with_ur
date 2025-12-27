@@ -1,0 +1,4 @@
+[console_scripts]
+evaluate = ur3_rl.evaluate:main
+train = ur3_rl.train:main
+
